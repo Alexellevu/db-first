@@ -2,7 +2,7 @@
 
 ## (table) Cars
 
-- id                    BIGINT NOTNULL
+- id                    BIGINT NOTNULL AUTO_INCREMENT PRIMARY KEY
 - descrizione           TEXT
 - marca                 VARCHAR(40) NOTNULL
 - modello               VARCHAR(100) NOTNULL
@@ -24,5 +24,7 @@
 - colore                VARCHAR(20) NOTNULL
 - numero proprietari    TINYINT NULL 
 - nazionalità           VARCHAR(50) NOTNULL
-               
-           
+- climatizzatore        BOOLEAN 
+- ABS                   BOOLEAN 
+- antifurto             BOOLEAN               
+- airbag frontali       BOOLEAN 
