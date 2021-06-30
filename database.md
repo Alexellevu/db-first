@@ -8,10 +8,10 @@
 - modello               VARCHAR(100) NOTNULL
 - versione              VARCHAR(100) NULL
 - anno immatric.        YEAR NOTNULL
-- prezzo                FLOAT() NOTNULL
+- prezzo                FLOAT(6,2) NOTNULL
 - chilometraggio        INT NOTNULL
 - cilindrata            SMALL NOTNULL
-- cilindri              TINYINT NULL 
+- n. cilindri           TINYINT NULL 
 - peso a vuoto          SMALL NULL
 - potenza               SMALL <!-- cv/kw --> NOTNULL
 - alimentazione         VARCHAR(100) NOTNULL
@@ -24,4 +24,5 @@
 - colore                VARCHAR(20) NOTNULL
 - numero proprietari    TINYINT NULL 
 - nazionalità           VARCHAR(50) NOTNULL
+               
            
